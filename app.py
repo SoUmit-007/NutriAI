@@ -7,7 +7,7 @@ PREFERRED = "models/gemini-1.5-flash-latest"
 TEMPERATURE   = 1
 
 # ── Gemini client ─────────────────────────────────────────────────────
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key=os.getenv("AIzaSyDqMOCMeMK7w_ZLXnfW_Jdh4sIAX6QbZjg"))
 
 
 def list_models():
