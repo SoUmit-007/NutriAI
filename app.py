@@ -1,13 +1,13 @@
 import os
 import streamlit as st
-import google-generativeai as genai
+import google.generativeai as genai
 
 # ── constants ─────────────────────────────────────────────────────────
 PREFERRED = "models/gemini-1.5-flash-latest"
 TEMPERATURE   = 1
 
 # ── Gemini client ─────────────────────────────────────────────────────
-genai.configure(api_key=os.getenv("AIzaSyDqMOCMeMK7w_ZLXnfW_Jdh4sIAX6QbZjg"))
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 
 def list_models():
